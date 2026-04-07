@@ -608,15 +608,15 @@ a {
     position: fixed;
     bottom: 50px;
     right: 25px;
-    background-color: #25D366;
-    color: white;
+    background-color: var(--bruce-yellow);
+    color: black;
     width: 60px;
     height: 60px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2.5rem;
+    font-size: 1.6rem;
     box-shadow: 0 4px 10px rgba(0,0,0,0.5);
     z-index: 2000;
 }
