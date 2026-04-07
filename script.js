@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-    
-    // --- Lógica del Carrusel con Efecto Ken Burns ---
+
+    /* --- Lógica del Carrusel con Efecto Ken Burns (COMENTADO) ---
     const slides = document.querySelectorAll('.carousel-slide');
     let currentSlide = 0;
     const intervalTime = 3500; // 4 segundos por foto
@@ -8,10 +8,10 @@ document.addEventListener('DOMContentLoaded', () => {
     function nextSlide() {
         // Quitamos la clase active de la actual
         slides[currentSlide].classList.remove('active');
-        
+
         // Calculamos la siguiente
         currentSlide = (currentSlide + 1) % slides.length;
-        
+
         // Añadimos la clase active a la siguiente (esto reinicia la animación CSS)
         slides[currentSlide].classList.add('active');
     }
@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Iniciamos el intervalo automático
     // Nota: La primera imagen ya tiene la clase 'active' en el HTML, así que arranca sola.
     setInterval(nextSlide, intervalTime);
+    */
 
 
     // --- Animaciones al hacer Scroll (Intersection Observer) ->Esta es tanto para la animación del texto del home, como la de la sección Nuestros servicios, como la de Nosotros y promociones ---
